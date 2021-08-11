@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form action ="{{url_for('addrec')}}" method="POST">
+            <style>
+                h1 {text-align: center;}
+                P { text-align: center }
+                </style>
+            <h1>Student Information</h1> 
+                </style>
+            <p>Name<br></P>
+            <P><input type='text' name="nm"/><br></p>
+            <P>Address<br></P>
+            <P><textarea type="text" name="add"></textarea><br></P>
+            <P>City<br></P>
+            <P><input type="text" name="city" id=""><br></P>
+            <P>PinCode<br></P>
+            <P><input type="text" name="pin" id=""><br></P>
+            <P><input type="submit" value="submit"><br></P>  
+        </form>
+    </body>
+</html>
